@@ -1,0 +1,22 @@
+database connection
+
+user admin, psw - test123
+
+to atlas - create cluster(free) - AA USER in quickstart(security)-
+go to network(security) - add ip address - allow from anywhere
+go to database(cluster - connect) - shell - will give the link after selecting version in i have mongo db shell
+add the link in your cmd it will ask PASSWORD OF ADMIN(which you created in quickstart)
+connected to db in atlas to check it database(cluster - connect) create database add name of data - TEST and collection - USER
+add the data now can see the db(data) by show dbs thn use data will enter in db now show collections will show collections thn
+db._collectionname.find() will show the data you created
+click on database(cluster - connect) thn drivers copy the link add the link to your mongoose connection
+where it was local hosted remove <password> add your password of ADMIN
+
+
+push the main folder which contains both FE and Be to github
+
+open render to connect BE thn dashboard thn new thn web service connect with the github repo 
+give your name thn in root directory give BE folder name thn add build in your BE json and give npm run build 
+in build command thn npm run dev for nodemon give the link which got created in login and register to redirect to post it
+
+add new site import from github select folder give FE folder in base directory and host it

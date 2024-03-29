@@ -1,0 +1,9 @@
+create main folder inside that created frontend folder as inotebook - npx create-react-app inotes
+
+backend folder as backend - npm init thn npm i express mongoose thn npm i -D nodemon(gets as dev dependency not as dependency)
+add "dev": "nodemon index.js" in scripts now npm run dev will work
+
+frontend npm i react-router-dom
+
+
+frontend done till video 69
